@@ -1,5 +1,5 @@
 ﻿Set-Location C:\Users\pc-ced\Desktop\powershell\POO
- .".\Class\Stuff.ps1"
+ ".\Class\Stuff.ps1"
 
 $Files = Get-ChildItem -path ".\Class"
 
@@ -17,5 +17,4 @@ $ObjectArray = @(
     $gun
     $piano
     $cricket 
-
 );
